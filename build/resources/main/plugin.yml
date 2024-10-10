@@ -1,0 +1,70 @@
+
+#=================[HEART_OF_FORTRESS]=================#
+#    author : hyun_21                                 #
+#    author's email address : hyun_21@naver.com       #
+#=====================================================#
+
+
+name: HEART_OF_FORTRESS
+version: 1.0
+author: Seoksoon(hyun_21)
+description: HEART OF FORTRESS
+api-version: 1.18
+
+main: system.Main
+
+commands:
+
+
+  h:
+    start:
+      description: 게임을 시작합니다.
+      permission: op
+      usage: /<command>
+
+    stop:
+      description: 게임을 중단합니다.
+      permission: op
+      usage: /<command>
+
+    join:
+      description: 팀에 참가합니다.
+      permission:
+      usage: /<command> <red/blue>
+
+    out:
+      description: 팀을 탈퇴합니다.
+      permission:
+      usage: /<command>
+
+    team reset:
+      description: 팀설정을 초기화 합니다.
+      permission: op
+      usage: /<command>
+
+    upgarde:
+      description: 포인트를 지불하고 직업을 업그레이드 합니다.
+      permission:
+      usage: /<command>
+
+    money:
+      description: 보유한 포인트를 수표로 환전합니다.
+      permission:
+      usage: /<command> <10/100/1000> <수량>
+
+    give:
+      description: 포인트를 지급합니다.
+      permission: op
+      usage: /<command> <금액>
+
+    help:
+      description: 사용가능 한 명령어를 보여줍니다.
+      usage: /<command>
+
+    rule:
+      description: 게임의 규칙을 보여줍니다.
+      usage: /<command>
+
+    cc:
+      description: 채팅 채널을 변경합니다.
+      usage: /<command>

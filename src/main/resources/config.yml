@@ -1,0 +1,275 @@
+
+#=================[HEART_OF_FORTRESS]=================#
+#    author : hyun_21                                 #
+#    author's email address : hyun_21@naver.com       #
+#=====================================================#
+
+
+
+
+#time to tower enable (seconds)
+towerTime: 300
+
+
+#time to apple regen (seconds)
+appleTime : 30
+
+
+#time to golden block regen (seconds)
+buffTime: 60
+
+
+#default_world
+defaultWorld: "world"
+
+
+#default respawn
+defaultSpawn:
+  x: 139.5
+  y: 143
+  z: 108.5
+  yaw: 0
+  pitch: 0
+
+
+
+#Team [RED] respawn location to select ability location
+redSpawn:
+  x: 283.5
+  y: 20
+  z: 107.5
+  yaw: 90
+  pitch: 0
+
+
+#Team [BLUE] respawn location to select ability location
+blueSpawn:
+  x: 6.5
+  y: 20
+  z: 107.5
+  yaw: -90
+  pitch: 0
+
+
+
+#Team [RED] spawn location
+redStart:
+  x: 274.5
+  y: 20
+  z: 107.5
+  yaw: 90
+  pitch: 0
+
+
+
+#Team [BLUE] spawn location
+blueStart:
+  x: 3.5
+  y: 20
+  z: 107.5
+  yaw: -90
+  pitch: 0
+
+
+
+#Team [RED] NPC Location
+redNpc:
+  x: 233.5
+  y: 21
+  z: 82.5
+  r: 0
+
+#Team [BLUE] NPC Location
+blueNpc:
+  x: 45.5
+  y: 21
+  z: 133.5
+  r: 180
+
+
+#Team [RED] Left Tower Location
+red_left_tower:
+  x: 181
+  y: 26
+  z: 153
+
+
+#Team [RED] Left Tower Beacon Location
+red_left_tower_beacon:
+  x: 181
+  y: 50
+  z: 153
+
+
+
+#Team [BLUE] Left Tower Location
+blue_left_tower:
+  x: 97
+  y: 26
+  z: 61
+
+
+
+#Team [BLUE] Left Tower Beacon Location
+blue_left_tower_beacon:
+  x: 97
+  y: 50
+  z: 61
+
+
+
+#Team [RED] Right Tower Location
+red_right_tower:
+  x: 181
+  y: 26
+  z: 61
+
+
+
+#Team [RED] Right Tower Beacon Location
+red_right_tower_beacon:
+  x: 181
+  y: 50
+  z: 61
+
+
+
+#Team [BLUE] Right Tower Location
+blue_right_tower:
+  x: 97
+  y: 26
+  z: 153
+
+
+
+#Team [BLUE] Right Tower Beacon Location
+blue_right_tower_beacon:
+  x: 97
+  y: 50
+  z: 153
+
+
+
+#Team [RED] Heart Location
+red_heart:
+  x: 241
+  y: 34
+  z: 107
+
+
+
+#Team [BLUE] Heart Location
+blue_heart:
+  x: 36
+  y: 34
+  z: 107
+
+
+#RegenBlock Locations like WorldEdit
+RegenBlock:
+  Location_1:
+    x1: 238
+    y1: 20
+    z1: 125
+
+    x2: 238
+    y2: 22
+    z2: 127
+
+  Location_2:
+    x1: 238
+    y1: 20
+    z1: 129
+
+    x2: 238
+    y2: 22
+    z2: 131
+
+  Location_3:
+    x1: 238
+    y1: 20
+    z1: 133
+
+    x2: 238
+    y2: 22
+    z2: 135
+
+  Location_4:
+    x1: 226
+    y1: 20
+    z1: 135
+
+    x2: 226
+    y2: 22
+    z2: 133
+  Location_5:
+    x1: 226
+    y1: 20
+    z1: 131
+
+    x2: 226
+    y2: 22
+    z2: 129
+
+  Location_6:
+    x1: 226
+    y1: 20
+    z1: 127
+
+    x2: 226
+    y2: 22
+    z2: 125
+
+  Location_7:
+    x1: 39
+    y1: 20
+    z1: 89
+
+    x2: 39
+    y2: 22
+    z2: 87
+
+  Location_8:
+    x1: 39
+    y1: 20
+    z1: 85
+
+    x2: 39
+    y2: 22
+    z2: 83
+
+  Location_9:
+    x1: 39
+    y1: 20
+    z1: 81
+
+    x2: 39
+    y2: 22
+    z2: 79
+
+  Location_10:
+    x1: 51
+    y1: 20
+    z1: 79
+
+    x2: 51
+    y2: 22
+    z2: 81
+
+  Location_11:
+    x1: 51
+    y1: 20
+    z1: 83
+
+    x2: 51
+    y2: 22
+    z2: 85
+
+  Location_12:
+    x1: 51
+    y1: 20
+    z1: 87
+
+    x2: 51
+    y2: 22
+    z2: 89

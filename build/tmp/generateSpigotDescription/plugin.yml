@@ -1,0 +1,5 @@
+main: system.Main
+name: Heart of Fortress
+version: 1.0-SNAPSHOT
+libraries:
+ - org.spigotmc:spigot-api:1.18.1-R0.1-SNAPSHOT

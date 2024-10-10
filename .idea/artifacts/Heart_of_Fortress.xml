@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Heart of Fortress">
+    <output-path>$PROJECT_DIR$/..</output-path>
+    <root id="archive" name="Heart of Fortress.jar" />
+  </artifact>
+</component>
